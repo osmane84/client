@@ -1,0 +1,110 @@
+.devis-form{
+    width: 100%;
+    padding: 15px 5px;
+}
+
+.devis-form .start{
+    border:solid 1px #17a2b8;
+    padding: 30px 0px;
+    border-radius: 8px 0 0 0;
+}
+.devis-form .start .start-badge{
+    position: absolute;
+    margin-top: -30px;
+    margin-left: -1px;
+    background: #17a2b8;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px 15px;
+    border-radius: 6px 0 8px 0;
+    
+}
+
+.devis-form .devis-validator{
+    padding: 5px 5px;
+}
+.devis-form .devis-validator label{
+    color:#17a2b8;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+.devis-form .devis-validator input,
+.devis-form .devis-validator select{
+    height: 38px;
+    border-radius: 0px;
+    color: #08001d;
+}
+
+.devis-form .devis-validator textarea{
+    border-radius: 0px;
+    color:#08001d; 
+}
+.devis-form .devis-validator .custom-checkbox{
+    margin-top: 15px;
+}
+
+.devis-form .came{
+    border:solid 1px #17a2b8;
+    padding: 30px 0px;
+    border-radius: 8px 0 0 0;
+    margin-top: 10px;
+}
+.devis-form .came .came-badge{
+    position: absolute;
+    margin-top: -32px;
+    margin-left: -1px;
+    background: #17a2b8;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px 15px;
+    border-radius: 6px 0 8px 0;
+    
+}
+
+
+.devis-form .value{
+    border:solid 1px #17a2b8;
+    padding: 30px 0px;
+    border-radius: 8px 0 0 0;
+    margin-top: 10px;
+}
+.devis-form .value .value-badge{
+    position: absolute;
+    margin-top: -32px;
+    margin-left: -1px;
+    background: #17a2b8;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px 15px;
+    border-radius: 6px 0 8px 0;
+    
+}
+
+.devis-form .contact{
+    border:solid 1px #17a2b8;
+    padding: 30px 0px;
+    border-radius: 8px 0 0 0;
+    margin-top: 10px;
+}
+.devis-form .contact .contact-badge{
+    position: absolute;
+    margin-top: -32px;
+    margin-left: -1px;
+    background: #17a2b8;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px 15px;
+    border-radius: 6px 0 8px 0;
+    
+}
+

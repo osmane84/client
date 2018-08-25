@@ -1,0 +1,44 @@
+.toolbar {
+    width: 100%;
+    top: 0;
+    left:0;
+    position: fixed;
+    background:#17a2b8;
+    height: 56px;
+    z-index: 300;
+}
+.toolbar .toolbar-navigation {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding: 0 1rem;
+}
+.toolbar .toolbar-logo{
+    margin-left: 1rem;
+}
+.toolbar .toolbar-logo a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.spacer{
+    flex: 1;
+}
+.toolbar-volume{
+    margin-right: 15px;
+}
+.toolbar-volume span{
+    padding: 0px 3px;
+}
+.toolbar-volume-title {
+    color: white;
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.toolbar-volume-val {
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}

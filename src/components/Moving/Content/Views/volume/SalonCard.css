@@ -1,0 +1,32 @@
+.card {
+    width: 100%;
+    border: solid 1.5px #17a2b8;
+}
+.card img{
+    padding: 15px;
+}
+.card .card-body{
+    border-top: solid 1.5px #17a2b8;
+    padding: 5px 5px 5px 5px;
+}
+.card p{
+    font-size: 0.6rem;
+    text-align: center;
+    text-transform:uppercase;
+}
+.card .card-button{
+    text-align: center;
+}
+.card .card-button button{
+    font-size: 1.2rem;
+}
+.card-info{
+    text-align: center;
+}
+.card span{
+    font-size: 0.7rem;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight:bolder;
+    color:#17a2b8;
+}

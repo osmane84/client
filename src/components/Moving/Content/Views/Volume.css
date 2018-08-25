@@ -1,0 +1,37 @@
+.volume {
+    margin-top: 15px;
+}
+
+.volume-nav ul{
+    list-style: none;
+    display: flex;
+    border-bottom: solid 1.5px #17a2b8;
+    width: 100%;
+    padding-left: 0px;
+}
+.volume-nav li{
+    padding-bottom:2px; 
+}
+
+.volume-nav a{
+    color :rgb(54, 53, 53);
+    padding:5px 15px;
+    font-weight: bold;
+    text-transform:uppercase; 
+}
+.volume-nav a:focus,
+.volume-nav a:hover{
+    text-decoration: none;
+}
+
+.volume-nav .actived { 
+    color :white;
+    background :#17a2b8;
+    padding:5px 15px;
+    font-weight: bold;
+    text-transform:uppercase;
+}
+
+.volume-elements {
+    background:white
+}

@@ -1,0 +1,88 @@
+.home {
+    background-color: #17a2b8;
+  }
+  
+.home hr {
+background-color: white;
+}
+
+.app-title{
+padding: 60px;
+}
+.app-title h1{
+font-family: 'Black Han Sans', sans-serif;
+text-transform: uppercase;
+color: white;
+}
+
+.app-header {
+text-align: center;
+display: flex;
+align-items: center;
+color: white;
+padding: 10px;
+
+}
+.app-header h1{
+text-transform: uppercase;
+font-family: 'Black Han Sans', sans-serif;
+font-size: 25px;
+letter-spacing: 2px;
+}
+.app-header h5{
+background-color: #299eb1;
+margin-bottom: 15px; 
+padding: 5px;
+font-family: 'Quicksand', sans-serif;
+text-align: initial;
+
+}
+.app-header a{
+text-transform: uppercase;
+font-weight: bolder;
+background-color: #17a2b8;
+color: white;
+border: solid  white 1.5px;
+border-radius: 5px;
+margin-bottom: 15px;
+font-family: 'Quicksand', sans-serif;
+}
+.app-header .app-header-transport{
+padding: 15px;
+border:solid white 1.5px;
+border-radius: 5px;
+}
+.app-header .app-header-transport img{
+width: 80%;
+}
+.app-header .app-header-transit{
+padding: 15px;
+border:solid white 1.5px;
+border-radius: 5px;
+}
+.app-header .app-header-transit img{
+width: 80%;
+}
+.app-header .app-header-demenager{
+padding: 15px;
+border:solid white 1.5px;
+border-radius: 5px;
+}
+.app-header .app-header-demenager img{
+width: 80%;
+}
+
+.app-feature{
+padding: 40px;
+}
+.app-feature h1{
+font-family: 'Black Han Sans', sans-serif;
+text-transform: uppercase;
+color: white;
+}
+.app-feature p{ 
+padding: 5px;
+font-family: 'Quicksand', sans-serif;
+color: white;
+font-size: 20px;
+}

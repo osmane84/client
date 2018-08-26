@@ -1,53 +1,41 @@
-import React, {Component} from 'react';
+import React from 'react';
 import './SalonCard.css';
+import { connect } from 'react-redux';
 
-class SalonCard extends Component{
-    constructor(props){ 
-        super(props);
-        this.state = {
-            Qte : 0,
-            volume : 0
-        }
-    }
-
-    QteDown = () => {
-        if(this.state.Qte <= 1 ){
-            this.setState({
-                Qte : 1,
-                volume : this.props.volume
-            })   
-        }
-        this.setState((prevState, props) => ({
-            Qte : prevState.Qte - 1,
-            volume : (prevState.Qte - 1) * props.volume
-        }))
-    }
-
-    QteUp = () => {
-       this.setState((prevState, props) => ({
-           Qte : prevState.Qte + 1,
-           volume : (prevState.Qte + 1) * props.volume
-       }))
-    }
-
-    render(){
-        return<div className="col-2" key={this.props.id}>
+const SalonCard  = props => { 
+        return<div className="col-2" key={props.id}>
             <div className="card" >
-                <img className="card-img-top" src={this.props.picture} alt={this.props.name}/>
+                <img className="card-img-top" src={props.picture} alt={props.name}/>
                 <div className="card-body">
-                    <p>{this.props.name}</p>
+                    <p>{props.name}</p>
                     <div className="card-info">
-                        <span>Qte: {this.state.Qte }</span>
-                        <span>Vol: {this.state.volume} M³</span>
+                        <span>Qte: {props.Qte }</span>
+                        <span>Vol: {props.volume} M³</span>
                     </div>
                     <div className="card-button">
-                        <button onClick={ this.QteDown } className="btn btn-link">-</button>
-                        <button onClick={ this.QteUp } className="btn btn-link">+</button>
+                        <button onClick="" className="btn btn-link">-</button>
+                        <button onClick={()=> props.VolUp(props.id)} className="btn btn-link">+</button>
                     </div>
                 </div>
                 </div>
             </div>
-        }
+ }
+
+
+
+const mapStoreToProps = (store) => {
+    return {
+        VolumeStored : store.VolumeStored,
+        Qte : store.Qte
+    }
 }
 
-export default SalonCard;
+
+
+const mapDispatchToProps = (dispatch) => {
+    return {
+        VolUp : (id) => dispatch({ type:'VOL_UP', key : id }),
+    }
+}
+
+export default connect(mapStoreToProps, mapDispatchToProps)(SalonCard);
